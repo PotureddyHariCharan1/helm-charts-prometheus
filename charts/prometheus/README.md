@@ -13,7 +13,9 @@ This chart bootstraps a [Prometheus](https://prometheus.io/) deployment on a [Ku
 
 ```console
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo add google https://charts.helm.sh/stable
 helm repo update
+
 ```
 
 _See [helm repo](https://helm.sh/docs/helm/helm_repo/) for command documentation._
