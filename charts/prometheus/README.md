@@ -24,6 +24,7 @@ _See [helm repo](https://helm.sh/docs/helm/helm_repo/) for command documentation
 
 ```console
 helm install [RELEASE_NAME] prometheus-community/prometheus
+helm install prometheus prometheus-community/kube-prometheus-stack
 ```
 
 _See [configuration](#configuration) below._
